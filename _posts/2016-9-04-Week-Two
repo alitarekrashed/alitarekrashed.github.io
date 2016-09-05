@@ -1,0 +1,26 @@
+---
+layout: post
+title: Week Two
+---
+
+This past week was our second week of classes, and the semester is now in full swing. Unrelated to school, I also accepted a
+full-time offer, and I'm very excited. It's a relief to not having to worry about interview prep or job hunting. 
+
+Regarding class, we spent this past week discussing a couple different things. We talked about some arithmetic optimizations
+that can be used to solve the Collatz problem, and we learned some things about Python (specifically exception handling and the range
+object). I have enough experience with Python that the code during the lectures has been easy to follow so far, but there 
+are enough gaps in my knowledge that I've been learning a lot about some of the different aspects of the language.
+
+Outside of the lectures, I've been working on the Collatz project. I started early, implementing the simple solution (no cache).
+That was straightforward, but I hit a couple roadblocks when I was trying to get Sphere to accept it. I kept getting a timeout
+error, and I spent a lot more time than I would've liked trying to debug it. After several hours of debugging and refactoring,
+I realized that when I wasn't actually updating the cache when I tried to eagerly calculate some of the values. On the bright 
+side, Sphere's finally happy with my solution.
+
+Next week, I'm planning on finishing up the rest of the Collatz project (generating acceptance tests and documentation). The first
+test in this class is coming up in a month, and I'm not too sure what to expect. My goal is to try and stay on top of the 
+material we cover in lecture, so I'm not playing catchup before the test.
+
+##### Tip of the Week
+I have a really bad habit of forgetting to check which branch I'm on before committing my changes. [git-prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) 
+displays your git repo's branch in your bash prompt. It can help you keep track of which branch you're working on.
