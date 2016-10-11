@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week Six
+title: Week Seven
 ---
 
 This past week had a lecture and our first exam. In lecture, we talked about decorators, another feature of Python I don't have any
